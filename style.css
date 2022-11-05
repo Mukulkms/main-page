@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: var(--White);
+    background-color: rgb(253, 253, 253);
     height: 100vh;
     font-family: Epilogue;
 }
@@ -189,28 +189,27 @@ a:hover {
   
 
 /* end */
-main{
+.hero-cont{
     display: flex;
-    margin: 2em 15% 0 15%;
-    justify-content: center;
-    align-items:center ;
-    
+    gap: 20px;
+    height: auto;
+    margin: 1em  10em 0 12em;
 }
 
 .hero-text{
-  margin:3.5em 0em 0 0;
   
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 h2{ 
-
-    font-size: 4.5em;
+    margin-top: 1em;
+    font-size: 5.5em;
 }
 h3{
+    margin-top: 1em;
         margin-top: 0;
-        font-size: 4.5em;
+        font-size: 5.5em;
     
 }
 p{
@@ -243,18 +242,16 @@ p{
     border: 2px solid var(--Black);
 }
 .client{
-    margin:20% 0 5rem 0;
+    margin:15% 0 5rem 0;
     
 }
 .hero-container{
-    
-    justify-content: center;
-    height: auto;
+    display: flex;
 }
 .hero-desk{
-    width: 90%;
-    height: auto;
-    padding-bottom: 5em;
+    width: 95%;
+    height: 88%;
+
     display: flex;
     justify-content: center;
 }
@@ -296,7 +293,7 @@ p{
 header{
     padding: 0 1em;
 }
-main{
+.hero-cont{
     flex-direction: column-reverse;
     margin: 0;
     
@@ -320,6 +317,9 @@ main{
 }
 h2{
     margin: 2rem 0 0 0 ;
+    font-size: 8vw;
+}
+h3{
     font-size: 8vw;
 }
 p{
